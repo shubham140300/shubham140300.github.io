@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CDC Infrastructure Compliance Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        .header {
+            background: #1f2937;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .description {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .number {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .dashboard-image {
+            width: 100%;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            margin-top: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            margin-right: 10px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        @media(max-width: 700px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>CDC Infrastructure Compliance & High-Risk Server Dashboard</h1>
+    <p>Data Analytics & Business Intelligence Project</p>
+</div>
+
+<div class="container">
+
+    <div class="description">
+        <h2>Project Overview</h2>
+
+        <p>
+            Interactive infrastructure compliance analytics dashboard
+            developed to analyze server risk, compliance patterns,
+            operating systems, environments and incident categories.
+        </p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Test Set Servers</h3>
+            <div class="number">151</div>
+        </div>
+
+        <div class="card">
+            <h3>Predicted High-Risk</h3>
+            <div class="number">43</div>
+        </div>
+
+        <div class="card">
+            <h3>High Risk Rate</h3>
+            <div class="number">28.48%</div>
+        </div>
+
+    </div>
+
+    <img
+        src="dashboard.png"
+        alt="CDC Infrastructure Compliance Dashboard"
+        class="dashboard-image"
+    >
+
+    <div class="buttons">
+
+        <a
+            class="button"
+            href="https://github.com/shubham140300"
+            target="_blank">
+            GitHub
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
